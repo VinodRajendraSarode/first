@@ -1,0 +1,36 @@
+.form-error {
+	border-color: red;
+}
+.help-block {
+	color: red;
+}
+.error-message {
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+    color: red;
+    margin-top: 0.25rem;
+}
+
+.number-align {
+	text-align:right;
+}
+
+.stat-box {
+	padding: 1.25rem;
+    min-height: 150px;
+}
+
+.ref-box {
+    padding: 1.25rem;
+    min-height: 300px;
+}
+
+.important-field {
+	color: red;
+}
+
+
+div.required label:after, label.required:after {
+    color: red;
+    content: " *";
+}
